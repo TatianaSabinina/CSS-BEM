@@ -1,0 +1,301 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.main__section {
+    min-height: 760px;
+    background: #171718;
+    color: #fff;
+
+
+}
+.btn {
+    border-radius: 5px;
+    background: #5C62EC;
+    display: inline-block;
+    border: 0;
+    cursor: pointer;
+    padding: 12px 28px;
+    color: #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: 0.15px;
+
+}
+.wrapper {
+   
+     padding: 20px;
+}
+.container {
+    max-width: 1170px;
+    margin-inline: auto;
+    text-align: center;
+  
+}
+/* header  */
+
+.header {
+    padding: 20px 0;
+    border-bottom: 1px solid #26292D;
+   
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.header__logo {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 100%; 
+}
+
+.header_logo_activ {   
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.header__ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.header__li {
+    list-style: none;
+    
+    
+
+}
+
+.header__a {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+}
+
+.header_a_activ::before {
+
+    content: "";
+    display: block;
+    width: 64px;
+    height: 3px;
+    flex-shrink: 0;
+    background: #5C62EC;
+    position: absolute;
+    bottom: -3px;
+    
+}
+
+/* info  */
+
+.info {
+    
+
+}
+
+
+.info__title {
+    margin-top: 182px;
+    
+    margin-inline: auto;
+    width: 100%;
+    color:  #FAFAFA;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 140%; /* 84px */
+    letter-spacing: -0.5px;
+}
+.info_title_active {
+    color:  #5C62EC;;
+}
+.info__role {
+    margin-bottom: 20px;
+    text-align: center;
+    color:  #FAFAFA;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+}
+
+.info__desc {
+    margin-bottom: 40px;
+    color:  #FFF;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.5px;
+
+}
+
+.info__btn {
+    
+
+}
+
+
+
+
+.projects {
+    margin-top: 70px;
+    padding-bottom: 70px;
+
+}
+
+.projects__title {
+    color: #5C62EC;
+    text-align: center;
+    font-family: DM Sans;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 130%; 
+    letter-spacing: -0.5px;
+
+}
+
+.projects-list {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+img {
+    max-width: 100%;
+}
+
+.projects__item {}
+
+.item {}
+
+.item__img, .item__img img {
+    border-radius: 10px;
+    
+}
+.item__img  {
+    width: 370px;
+    height: 349px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.25);
+    
+
+}
+
+.item__title {
+    color: #171718;
+    font-family: DM Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 130%; 
+    letter-spacing: -0.5px;
+    padding: 15px 20px 25px 20px;
+    text-align: left;
+    
+}
+
+
+
+.socials__section{
+
+    min-height: 200px;
+    background: #171718;
+    padding: 64px;
+    
+
+}
+
+.footer {
+
+    
+
+  
+
+}
+
+.container {
+
+}
+
+.footer__container {
+
+    
+   
+
+}
+
+.footer__social {
+   
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 37px;
+}
+
+
+.footer__link {
+    color: #FFF;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%; 
+letter-spacing: -0.5px;
+padding-bottom: 50px;
+}
+
+@media screen and (max-width:1376px) {
+    .header {
+        padding: 32px
+    }
+
+    .main__section {
+        max-width: 100%;
+    }
+    .projects-list{
+       display: inline-block;
+    }
+}
+@media screen and (max-width:1376px) {
+
+    .info__title {
+        font-size: 50px;
+   
+        
+       
+    }
+    .info__role {
+        font-size: 30px;
+    }
+
+}
+
+
+
+
